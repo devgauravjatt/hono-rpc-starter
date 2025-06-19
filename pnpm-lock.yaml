@@ -13,28 +13,28 @@ importers:
         version: 0.0.4
       '@hono/node-server':
         specifier: ^1.14.4
-        version: 1.14.4(hono@4.7.11)
+        version: 1.14.4(hono@4.8.0)
       '@hono/zod-validator':
         specifier: ^0.7.0
-        version: 0.7.0(hono@4.7.11)(zod@3.25.64)
+        version: 0.7.0(hono@4.8.0)(zod@3.25.67)
       best-blog-data:
         specifier: ^0.8.8
         version: 0.8.8
       hono:
-        specifier: ^4.7.11
-        version: 4.7.11
+        specifier: ^4.8.0
+        version: 4.8.0
       zod:
-        specifier: ^3.25.64
-        version: 3.25.64
+        specifier: ^3.25.67
+        version: 3.25.67
     devDependencies:
       '@types/node':
-        specifier: ^20.11.17
-        version: 20.19.0
+        specifier: ^20.19.1
+        version: 20.19.1
       tsup:
         specifier: ^8.5.0
         version: 8.5.0(tsx@4.20.3)(typescript@5.8.3)
       tsx:
-        specifier: ^4.7.1
+        specifier: ^4.20.3
         version: 4.20.3
       typescript:
         specifier: ^5.8.3
@@ -340,8 +340,8 @@ packages:
   '@types/estree@1.0.8':
     resolution: {integrity: sha512-dWHzHa2WqEXI/O1E9OjrocMTKJl2mSrEolh1Iomrv6U+JuNwaHXsXx9bLu5gG7BUWFIN0skIQJQ/L1rIex4X6w==}
 
-  '@types/node@20.19.0':
-    resolution: {integrity: sha512-hfrc+1tud1xcdVTABC2JiomZJEklMcXYNTVtZLAeqTVWD+qL5jkHKT+1lOtqDdGxt+mB53DTtiz673vfjU8D1Q==}
+  '@types/node@20.19.1':
+    resolution: {integrity: sha512-jJD50LtlD2dodAEO653i3YF04NWak6jN3ky+Ri3Em3mGR39/glWiboM/IePaRbgwSfqM1TpGXfAg8ohn/4dTgA==}
 
   acorn@8.15.0:
     resolution: {integrity: sha512-NZyJarBfL7nWwIq+FDL6Zp/yHEhePMNnnJ0y3qfieCrmNvYct8uvtiV41UvlSe6apAfk0fY1FbWx+NwfmpvtTg==}
@@ -466,8 +466,8 @@ packages:
     resolution: {integrity: sha512-7Bv8RF0k6xjo7d4A/PxYLbUCfb6c+Vpd2/mB2yRDlew7Jb5hEXiCD9ibfO7wpk8i4sevK6DFny9h7EYbM3/sHg==}
     hasBin: true
 
-  hono@4.7.11:
-    resolution: {integrity: sha512-rv0JMwC0KALbbmwJDEnxvQCeJh+xbS3KEWW5PC9cMJ08Ur9xgatI0HmtgYZfOdOSOeYsp5LO2cOhdI8cLEbDEQ==}
+  hono@4.8.0:
+    resolution: {integrity: sha512-NoiHrqJxoe1MYXqW+/0/Q4NCizKj2Ivm4KmX8mOSBtw9UJ7KYaOGKkO7csIwO5UlZpfvVRdcgiMb0GGyjEjtcw==}
     engines: {node: '>=16.9.0'}
 
   is-fullwidth-code-point@3.0.0:
@@ -706,8 +706,8 @@ packages:
     resolution: {integrity: sha512-si7QWI6zUMq56bESFvagtmzMdGOtoxfR+Sez11Mobfc7tm+VkUckk9bW2UeffTGVUbOksxmSw0AA2gs8g71NCQ==}
     engines: {node: '>=12'}
 
-  zod@3.25.64:
-    resolution: {integrity: sha512-hbP9FpSZf7pkS7hRVUrOjhwKJNyampPgtXKc3AN6DsWtoHsg2Sb4SQaS4Tcay380zSwd2VPo9G9180emBACp5g==}
+  zod@3.25.67:
+    resolution: {integrity: sha512-idA2YXwpCdqUSKRCACDE6ItZD9TZzy3OZMtpfLoh6oPR47lipysRrJfjzMqFxQ3uJuUPyUeWe1r9vLH33xO/Qw==}
 
 snapshots:
 
@@ -792,14 +792,14 @@ snapshots:
 
   '@faker-js/faker@9.8.0': {}
 
-  '@hono/node-server@1.14.4(hono@4.7.11)':
+  '@hono/node-server@1.14.4(hono@4.8.0)':
     dependencies:
-      hono: 4.7.11
+      hono: 4.8.0
 
-  '@hono/zod-validator@0.7.0(hono@4.7.11)(zod@3.25.64)':
+  '@hono/zod-validator@0.7.0(hono@4.8.0)(zod@3.25.67)':
     dependencies:
-      hono: 4.7.11
-      zod: 3.25.64
+      hono: 4.8.0
+      zod: 3.25.67
 
   '@isaacs/cliui@8.0.2':
     dependencies:
@@ -892,7 +892,7 @@ snapshots:
 
   '@types/estree@1.0.8': {}
 
-  '@types/node@20.19.0':
+  '@types/node@20.19.1':
     dependencies:
       undici-types: 6.21.0
 
@@ -1020,7 +1020,7 @@ snapshots:
       package-json-from-dist: 1.0.1
       path-scurry: 1.11.1
 
-  hono@4.7.11: {}
+  hono@4.8.0: {}
 
   is-fullwidth-code-point@3.0.0: {}
 
@@ -1263,4 +1263,4 @@ snapshots:
       string-width: 5.1.2
       strip-ansi: 7.1.0
 
-  zod@3.25.64: {}
+  zod@3.25.67: {}
